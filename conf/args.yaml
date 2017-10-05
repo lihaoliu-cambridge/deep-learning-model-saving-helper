@@ -1,0 +1,13 @@
+log_dir_params:
+    tensorboard_dir: "./logs/tf_logs/resnet/log4tb"
+    model_dir: "./logs/tf_logs/resnet/log4model"
+    note_dir: "./logs/tf_logs/resnet/note"
+    self_increasing_mode: True
+    pattern: "experiment"
+    default_pattern: "test"
+
+running_params:
+    batch_size: 64
+    gpu_num: 8
+    class_num: 2
+    lr: 1e-3
