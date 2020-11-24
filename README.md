@@ -79,7 +79,7 @@ Download and unzip Deep-Learning-Model-Saving-Helper-master.zip
 
     ```shell
     cd Deep-Learning-Model-Saving-Helper-master
-    python main.py
+    python train.py  
     ```
 
 ## Running
