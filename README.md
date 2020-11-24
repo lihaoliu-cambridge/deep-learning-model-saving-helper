@@ -1,40 +1,31 @@
 # Deep Learning Model-Saving Helper
 
-****
-|Author|LIU Lihao|
-|---|---
-|E-mail|lhliu@cse.cuhk.edu.hk
-****
+Deep Learning Model-Saving Helper is a simple python framework which allows you to save your deep learning model's middle parameters (for visualization), deep learning model, and config file automatically without explicitly changing your code.
 
 
 ## Introduction
 
-Deep Learning Model-Saving Helper is a simple python framework which allows you to save your deep learning model's middle parameters(for visualization), deep learning model, config file automatically without explicitly changing your code.
-
-
-## Problems
-
 For deep learning researcher, a proposed model usually need many experiments with different parameters. The process of recording the parameters need explicit code modification. 
 
 For example, changing you code from 
-```sh
-tensorboard_log_dir = "~/log/test_1"
-batch_size = 32
-learning_rate = 1e-3
-```
+    ```sh
+    tensorboard_log_dir = "~/log/test_1"
+    batch_size = 32
+    learning_rate = 1e-3
+    ```
 to
-```sh
-tensorboard_log_dir = "~/log/test_2"
-batch_size = 40
-learning_rate = 1e-4
-```
+    ```sh
+    tensorboard_log_dir = "~/log/test_2"
+    batch_size = 40
+    learning_rate = 1e-4
+    ```
 
 The above manually changing method is time-wasting and error-prone.
 
 Our framework is mainly focused on solving the problem and it allows you to arrange your experiment's results in a more convenient way.
 
 
-## Advantages
+## Advantage
 
   - Automatically increasing the experiment number in the dir name, once you define the path and dir name in the config file. 
 
@@ -84,13 +75,19 @@ Your don't need tensorflow or other deep learning framework to run.
 
 Download and unzip Deep-Learning-Model-Saving-Helper-master.zip
 
-```sh
-$ cd Deep-Learning-Model-Saving-Helper-master
-$ python main.py
-```
+    ```sh
+    $ cd Deep-Learning-Model-Saving-Helper-master
+    $ python main.py
+    ```
 
-## Todos
+## Running
 
  - Modify the [args.yaml](https://github.com/CaptainWilliam/Deep-Learning-Model-Saving-Helper/blob/master/conf/args.yaml), add the parameters your deep learning model need under the "running_params" item .
  - Pass the running_params (a python dict which contains the running parameters) to you own model.
  - Finish you model, and run it.
+ 
+ 
+## Question
+
+Please open an issue or email 'lhliu1994@gmail.com' for any question.
+
