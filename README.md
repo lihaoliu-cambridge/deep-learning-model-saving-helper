@@ -8,15 +8,19 @@ Deep Learning Model-Saving Helper is a simple python framework which allows you 
 For deep learning researcher, a proposed model usually need many experiments with different parameters. The process of recording the parameters need explicit code modification. 
 
 For example, changing you code from  
-    `tensorboard_log_dir = log/test_1   
+
+    ```
+    tensorboard_log_dir = log/test_1  
     batch_size = 32  
-    learning_rate = 1e-3`  
+    learning_rate = 1e-3  
+    ```  
 to  
-    `
-    tensorboard_log_dir = log/test_2  
+
+    ```
+    tensorboard_log_dir = log/test_2   
     batch_size = 40  
-    learning_rate = 1e-4  
-    `
+    learning_rate = 1e-4    
+    ```
 
 The above manually changing method is time-wasting and error-prone.
 
@@ -63,10 +67,8 @@ Our framework is mainly focused on solving the problem and it allows you to arra
   - Copy the [args.yaml](https://github.com/CaptainWilliam/Deep-Learning-Model-Saving-Helper/blob/master/conf/args.yaml) file (which contains and manages you model's parameters) to the note path every time you run the program. If you wanna overwrite the last dir, change the self_increasing_mode item to "False".
     
     <img src="https://github.com/CaptainWilliam/StrawHat/blob/master/readme_pics/1.png" width="300"/>
-    
-    <img src="https://github.com/CaptainWilliam/StrawHat/blob/master/readme_pics/2.png" width="300"/>  
-    
-    <img src="https://github.com/CaptainWilliam/StrawHat/blob/master/readme_pics/3.png" width="300"/>  
+    <img src="https://github.com/CaptainWilliam/StrawHat/blob/master/readme_pics/2.png" width="300"/>
+    <img src="https://github.com/CaptainWilliam/StrawHat/blob/master/readme_pics/3.png" width="300"/>
 
 
 ## Installation
@@ -75,9 +77,9 @@ Your don't need tensorflow or other deep learning framework to run.
 
 Download and unzip Deep-Learning-Model-Saving-Helper-master.zip
 
-    ```sh
-    $ cd Deep-Learning-Model-Saving-Helper-master
-    $ python main.py
+    ```shell
+    cd Deep-Learning-Model-Saving-Helper-master
+    python main.py
     ```
 
 ## Running
