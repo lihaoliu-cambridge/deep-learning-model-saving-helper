@@ -9,18 +9,17 @@ For deep learning researcher, a proposed model usually need many experiments wit
 
 For example, changing you code from  
 
-    ```
-    tensorboard_log_dir = log/test_1  
-    batch_size = 32  
-    learning_rate = 1e-3  
-    ```  
+```
+tensorboard_log_dir = log/test_1  
+batch_size = 32  
+learning_rate = 1e-3  
+```  
 to  
-
-    ```
-    tensorboard_log_dir = log/test_2   
-    batch_size = 40  
-    learning_rate = 1e-4    
-    ```
+```
+tensorboard_log_dir = log/test_2   
+batch_size = 40  
+learning_rate = 1e-4    
+```
 
 The above manually changing method is time-wasting and error-prone.
 
@@ -86,7 +85,7 @@ Your don't need tensorflow or other deep learning framework to run.
 
  - Modify the [args.yaml](https://github.com/CaptainWilliam/Deep-Learning-Model-Saving-Helper/blob/master/conf/args.yaml), add the parameters your deep learning model need under the "running_params" item .
  - Pass the running_params (a python dict which contains the running parameters) to you own model.
- - Finish you model, and run it
+ - Finish you model, and run it:
  
    ```shell
    cd deep-learning-model-saving-helper
