@@ -75,12 +75,12 @@ Our framework is mainly focused on solving the problem and it allows you to arra
 
 Your don't need tensorflow or other deep learning framework to run.
 
-Download this repository:
-
+ - Download this repository:
     ```shell
     git clone https://github.com/lihaoliu-cambridge/deep-learning-model-saving-helper.git
-    cd deep-learning-model-saving-helper
+    
     ```
+    
 
 ## Running
 
@@ -89,6 +89,7 @@ Download this repository:
  - Finish you model, and run it
  
    ```shell
+   cd deep-learning-model-saving-helper
    python main.py
    ```
  
