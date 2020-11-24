@@ -75,18 +75,22 @@ Our framework is mainly focused on solving the problem and it allows you to arra
 
 Your don't need tensorflow or other deep learning framework to run.
 
-Download and unzip Deep-Learning-Model-Saving-Helper-master.zip
+Download this repository:
 
     ```shell
-    cd Deep-Learning-Model-Saving-Helper-master
-    python train.py  
+    git clone https://github.com/lihaoliu-cambridge/deep-learning-model-saving-helper.git
+    cd deep-learning-model-saving-helper
     ```
 
 ## Running
 
  - Modify the [args.yaml](https://github.com/CaptainWilliam/Deep-Learning-Model-Saving-Helper/blob/master/conf/args.yaml), add the parameters your deep learning model need under the "running_params" item .
  - Pass the running_params (a python dict which contains the running parameters) to you own model.
- - Finish you model, and run it.
+ - Finish you model, and run it
+ 
+   ```shell
+   python main.py
+   ```
  
  
 ## Question
