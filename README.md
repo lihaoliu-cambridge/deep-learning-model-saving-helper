@@ -65,9 +65,9 @@ Our framework is mainly focused on solving the problem and it allows you to arra
     
   - Copy the [args.yaml](https://github.com/CaptainWilliam/Deep-Learning-Model-Saving-Helper/blob/master/conf/args.yaml) file (which contains and manages you model's parameters) to the note path every time you run the program. If you wanna overwrite the last dir, change the self_increasing_mode item to "False".
     
-    <img src="https://github.com/CaptainWilliam/StrawHat/blob/master/readme_pics/1.png" width="300"/>
-    <img src="https://github.com/CaptainWilliam/StrawHat/blob/master/readme_pics/2.png" width="300"/>
-    <img src="https://github.com/CaptainWilliam/StrawHat/blob/master/readme_pics/3.png" width="300"/>
+    <img src="https://github.com/CaptainWilliam/StrawHat/blob/master/readme_pics/1.png" width="240"/>
+    <img src="https://github.com/CaptainWilliam/StrawHat/blob/master/readme_pics/2.png" width="240"/>
+    <img src="https://github.com/CaptainWilliam/StrawHat/blob/master/readme_pics/3.png" width="240"/>
 
 
 ## Installation
